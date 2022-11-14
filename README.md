@@ -9,10 +9,12 @@ Project is created with:
 	
 ## Description
 The dataset analyzed contains the following information:
-* DATE
-* SECTOR
-* COUNTRY
-* FOB
-* TONS
+* DATE: Year and month of the exportation.
+* SECTOR: Type of products exported.
+* COUNTRY: Destiny country of the exportation.
+* FOB: Value (in USD) of the shipped cargo, including custom fees.
+* TONS: Weight of the products exported during that month.
 
-On firs
+In the notebooks folder you will find:
+* data_analysis.ipynb: Preprocesing, grouping and visualization of the dataset information.
+* models.ipynb: machine learning models for forecasting the FOB.
